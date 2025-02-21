@@ -1,0 +1,127 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    line-height: 1.6;
+}
+
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; 
+    padding: 5px;
+    border-bottom: solid;
+    border-color:white ;
+   
+}
+
+
+.logo-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white; 
+}
+
+.logo-container .logo {
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+
+
+.githubname {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.nav a:hover {
+    color: gold; 
+    text-decoration: underline;
+}
+/* Home section styling */
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    animation: imageAnimation 3s ease-out forwards;
+}
+
+.imagehome {
+    width: 250px; /* Adjust size */
+    height: 350px; /* Adjust size */
+    
+ 
+}
+
+.description-container {
+    flex: 2;
+    padding: 0 20px;
+    color: white
+}
+
+.myname {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: gold;
+    
+}
+.sub{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: gold;
+}
+
+
+.description {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 30px;
+    color: gold; /* Change this to the color you prefer */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #0073e6; /* Change this to your desired hover color */
+}
+@keyframes imageAnimation {
+    0% {
+        opacity: 0; /* Start invisible */
+        transform: scale(0.5); /* Start small */
+    }
+    100% {
+        opacity: 1; /* End visible */
+        transform: scale(1); /* End at normal size */
+    }
+}
+
